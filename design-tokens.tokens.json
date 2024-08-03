@@ -1,0 +1,692 @@
+{
+  "color": {
+    "text_dark": {
+      "description": "",
+      "type": "color",
+      "value": "#391400ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:7a43d465b1fd4346fda22e06eaba3f75b92b1e86,",
+          "exportKey": "color"
+        }
+      }
+    },
+    "text_dark_accent": {
+      "description": "",
+      "type": "color",
+      "value": "#ef6d58ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:b745d37ef3e83b5988cf419b3455fd207643f629,",
+          "exportKey": "color"
+        }
+      }
+    },
+    "text_dark_gray": {
+      "description": "",
+      "type": "color",
+      "value": "#391400a3",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:46c020e3ca0e3361109eed5315ae0912e0f4f0a8,",
+          "exportKey": "color"
+        }
+      }
+    },
+    "text_light": {
+      "description": "",
+      "type": "color",
+      "value": "#ffffffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:f28fb21e0ae0f62f023649c5e298cf4c9b3c71cf,",
+          "exportKey": "color"
+        }
+      }
+    },
+    "text_light_accent": {
+      "description": "",
+      "type": "color",
+      "value": "#ef6d58ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:c24a4703162ac89a6a20eb660beeda74475f1218,",
+          "exportKey": "color"
+        }
+      }
+    },
+    "text_light_gray": {
+      "description": "",
+      "type": "color",
+      "value": "#ffffffa3",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:84c8d9825243809cc84961586da2d0c7387ae51d,",
+          "exportKey": "color"
+        }
+      }
+    }
+  },
+  "font": {
+    "h1": {
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 72,
+        "textDecoration": "none",
+        "fontFamily": "Epilogue",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": -2,
+        "lineHeight": 80,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:73eec91212b4e9447f2ffe78aac11c978441c159,",
+          "exportKey": "font"
+        }
+      }
+    },
+    "h2": {
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 56,
+        "textDecoration": "none",
+        "fontFamily": "Epilogue",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": -1,
+        "lineHeight": 64,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:b225d02ff833b4a702219f5bd4e5770ff90feedf,",
+          "exportKey": "font"
+        }
+      }
+    },
+    "h3": {
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 40,
+        "textDecoration": "none",
+        "fontFamily": "Epilogue",
+        "fontWeight": 800,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 48,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:96215f8847279f1ba6f7f0a37f34b75d07abfd39,",
+          "exportKey": "font"
+        }
+      }
+    },
+    "h4": {
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 24,
+        "textDecoration": "none",
+        "fontFamily": "Epilogue",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 32,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:cc8e7ebb0dc4f4678de943645107b1296b7efa81,",
+          "exportKey": "font"
+        }
+      }
+    },
+    "h5": {
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 16,
+        "textDecoration": "none",
+        "fontFamily": "Epilogue",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 3,
+        "lineHeight": 32,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "uppercase"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:5f06757da00d36748d6df44480df293cee8ab753,",
+          "exportKey": "font"
+        }
+      }
+    },
+    "label": {
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 12,
+        "textDecoration": "none",
+        "fontFamily": "Epilogue",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 14.4,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "uppercase"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:6bd3beb5f4e0a11291f3c6000afdcb3cecb5b74a,",
+          "exportKey": "font"
+        }
+      }
+    },
+    "text_big": {
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 20,
+        "textDecoration": "none",
+        "fontFamily": "Epilogue",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 32,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:51b677adafaea21f9b6ea280e4cbafbbf0f9112d,",
+          "exportKey": "font"
+        }
+      }
+    },
+    "text": {
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 16,
+        "textDecoration": "none",
+        "fontFamily": "Epilogue",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 32,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:9e640fe6277146fc06f73fb533e3d74df7c4d810,",
+          "exportKey": "font"
+        }
+      }
+    },
+    "text_small": {
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 14,
+        "textDecoration": "none",
+        "fontFamily": "Epilogue",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 24,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:78fe15f78cd6d02e4f257798322607bb0f66f7f1,",
+          "exportKey": "font"
+        }
+      }
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontSize": {
+        "type": "dimension",
+        "value": 72
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Epilogue"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 800
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": -2
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 80
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "none"
+      }
+    },
+    "h2": {
+      "fontSize": {
+        "type": "dimension",
+        "value": 56
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Epilogue"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 800
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": -1
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 64
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "none"
+      }
+    },
+    "h3": {
+      "fontSize": {
+        "type": "dimension",
+        "value": 40
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Epilogue"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 800
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 48
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "none"
+      }
+    },
+    "h4": {
+      "fontSize": {
+        "type": "dimension",
+        "value": 24
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Epilogue"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 700
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 32
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "none"
+      }
+    },
+    "h5": {
+      "fontSize": {
+        "type": "dimension",
+        "value": 16
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Epilogue"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 400
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": 3
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 32
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "uppercase"
+      }
+    },
+    "label": {
+      "fontSize": {
+        "type": "dimension",
+        "value": 12
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Epilogue"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 700
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 14.4
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "uppercase"
+      }
+    },
+    "text_big": {
+      "fontSize": {
+        "type": "dimension",
+        "value": 20
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Epilogue"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 400
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 32
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "none"
+      }
+    },
+    "text": {
+      "fontSize": {
+        "type": "dimension",
+        "value": 16
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Epilogue"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 400
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 32
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "none"
+      }
+    },
+    "text_small": {
+      "fontSize": {
+        "type": "dimension",
+        "value": 14
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Epilogue"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 400
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 24
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "none"
+      }
+    }
+  }
+}
