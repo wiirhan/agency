@@ -5,6 +5,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        'bg-dark': '#28293E',
+        'bg-light': '#FDF0E9',
         'text-dark': '#391400',
         'text-dark-accent': '#EF6D58',
         'text-dark-gray': '#391400A3',
