@@ -13,7 +13,7 @@ export default function Menu() {
           <li key={index}>
             <a
               href={item.href}
-              className="text-text-light text-text"
+              className="text-text-light"
             >
               {item.title}
             </a>
