@@ -1,39 +1,24 @@
 export default function Menu() {
+  const menuItems = [
+    { title: 'About', href: '#' },
+    { title: 'Services', href: '#' },
+    { title: 'Pricing', href: '#' },
+    { title: 'Blog', href: '#' },
+  ]
+
   return (
     <nav className="flex items-center flex-1 mx-auto justify-center">
       <ul className="flex space-x-8">
-        <li>
-          <a
-            href="#"
-            className="text-white"
-          >
-            About
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
-            className="text-white"
-          >
-            Services
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
-            className="text-white"
-          >
-            Pricing
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
-            className="text-white"
-          >
-            Blog
-          </a>
-        </li>
+        {menuItems.map((item, index) => (
+          <li key={index}>
+            <a
+              href={item.href}
+              className="text-text-light text-text"
+            >
+              {item.title}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   )

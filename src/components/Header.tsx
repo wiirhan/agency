@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container p-4 mx-auto flex justify-between">
         <Logo title="Agency" />
         <Menu />
-        <button className="text-white px-8 py-4 border border-text-light-gray rounded">CONTACT</button>
+        <button className="text-text-light font-extra-bold text-sm px-8 py-3 border border-text-light-gray rounded">CONTACT</button>
       </div>
     </header>
   )

@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
+import { Epilogue } from 'next/font/google'
 import Header from '../components/Header'
 import './globals.css'
+
+const epilogue = Epilogue({ subsets: ['latin'], variable: '--font-epilogue' })
 
 export const metadata: Metadata = {
   title: 'Agency',
@@ -14,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={epilogue.className}>
         <Header />
         <main>{children}</main>
       </body>
