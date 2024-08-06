@@ -1,4 +1,4 @@
-import { H4 } from './Typography'
+import { H4 } from '../Typography'
 
 export default function Logo({ title }: { title: string }) {
   return (
