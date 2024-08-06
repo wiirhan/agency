@@ -7,7 +7,10 @@ export default function Menu() {
   ]
 
   return (
-    <nav className="flex items-center flex-1 mx-auto px-[176px]">
+    <nav
+      className="flex items-center flex-1 mx-auto px-[176px]"
+      aria-label="Main navigation"
+    >
       <ul className="flex justify-between flex-1 space-x-4">
         {menuItems.map((item, index) => (
           <li key={index}>
