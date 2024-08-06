@@ -7,8 +7,8 @@ export default function Menu() {
   ]
 
   return (
-    <nav className="flex items-center flex-1 mx-auto justify-center">
-      <ul className="flex space-x-8">
+    <nav className="flex items-center flex-1 mx-auto px-[176px]">
+      <ul className="flex justify-between flex-1 space-x-4">
         {menuItems.map((item, index) => (
           <li key={index}>
             <a
