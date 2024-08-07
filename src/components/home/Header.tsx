@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container p-4 mx-auto flex justify-between">
         <Logo title="Agency" />
         <Menu />
-        <Button className="text-text-light font-extra-bold text-sm px-8 py-3 border border-text-light-gray rounded">CONTACT</Button>
+        <Button className="text-text-light font-extra-bold text-sm px-8 py-3 border border-text-light-gray rounded hover:bg-text-light hover:text-bg-dark">CONTACT</Button>
       </div>
     </header>
   )

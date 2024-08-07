@@ -15,7 +15,7 @@ export default function Banner() {
           </H1>
           <Text className="max-w-[470px] text-white/60">Agency provides a full service range including technical skills, design, and business understanding.</Text>
           <div className="flex items-center gap-x-12">
-            <Button className="bg-red-400 px-6 py-4">How We Work</Button>
+            <Button className="bg-red-400 px-6 py-4 hover:bg-red-500">How We Work</Button>
             <a
               href="#contact"
               className="text-white leading-loose hover:underline"
